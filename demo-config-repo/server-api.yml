@@ -24,4 +24,4 @@ management:
         include: "*" 
         
         
-str: hello spring-cloud   
+str: hello cloud   

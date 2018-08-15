@@ -22,4 +22,4 @@ management:
       exposure:
         include: "*"  
         
-str: hello spring-cloud           
+str: hello cloud           
