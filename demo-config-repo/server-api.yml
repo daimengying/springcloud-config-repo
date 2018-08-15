@@ -1,6 +1,6 @@
 #为了配置中心直接访问测试  http://localhost:2001/server-api/dev/master
 info:
-  name: server-api11
+  name: server-api
   profile: default
   
   
@@ -22,3 +22,6 @@ management:
     web:
       exposure:
         include: "*" 
+        
+        
+str: hello cloud   
