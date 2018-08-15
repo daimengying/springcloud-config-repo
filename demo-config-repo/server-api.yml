@@ -1,6 +1,6 @@
 #为了配置中心直接访问测试  http://localhost:2001/server-api/dev/master
 info:
-  name: server-api    
+  name: serve
   profile: default
   
   
@@ -18,3 +18,7 @@ logging:
 management:
   security:
     enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh    
