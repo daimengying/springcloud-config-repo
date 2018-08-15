@@ -30,4 +30,4 @@ management:
         include: "*" 
         
         
-str: hello spring-cloud   demo
+str: hello spring-cloud   
