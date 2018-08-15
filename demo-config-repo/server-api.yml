@@ -1,3 +1,19 @@
-#为了配置中心直接访问测试  http://localhost:2001/config/default/master
-abc:
+#为了配置中心直接访问测试  http://localhost:2001/server-api/dev/master
+info:
+  name: server-api    
   profile: default
+  
+spring:
+  application:
+    name: server-api   # 对应config-server所获取的配置文件的{application}
+server:
+  port: 7001
+
+
+
+
+logging:
+  file: ${spring.application.name}.log
+management:
+  security:
+    enabled: true
