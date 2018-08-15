@@ -1,6 +1,6 @@
 #为了配置中心直接访问测试  http://localhost:2001/server-api/dev/master
 info:
-  name: serve
+  name: server-api
   profile: default
   
   
