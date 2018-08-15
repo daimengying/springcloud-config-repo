@@ -15,9 +15,9 @@ server:
 logging:
   file: ${spring.application.name}.log
 management:
-  security:
-    enabled: true
- # endpoints:
-  #  web:
-  #    exposure:
-  #      include: bus-refresh   
+  #security:
+    #enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh   
