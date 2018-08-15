@@ -15,8 +15,8 @@ server:
 logging:
   file: ${spring.application.name}.log
 management:
-  security:
-    enabled: true
+  #security:
+    #enabled: true
   endpoints:
     web:
       exposure:
