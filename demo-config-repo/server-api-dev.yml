@@ -13,7 +13,7 @@ spring:
     password: guest    
 
 server:
-  port: 7001
+  port: 7002
 
 
 
